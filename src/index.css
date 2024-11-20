@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+body{
+ font-family: "Poppins", sans-serif;
+ font-weight: 400;
+ 
+}
+
+ 
+.carousal{
+    animation-name:  ravi;
+    animation-duration: 10s;
+ 
+    
+}
+
+@keyframes ravi {
+
+    0%{transform : translateX(-0%)}
+    16.66%{transform : translateX(-0%)}
+    33.32%{transform : translateX(-20%)}
+    49.88%{transform : translateX(-20%)}
+    66.64%{transform : translateX(-40%)}
+    83.30%{transform : translateX(-40%)}
+    99.96%{transform : translateX(-60%)}
+    116.62%{transform : translateX(-60%)}
+    133.28%{transform : translateX(-80%)}
+    
+    
+}
+
+
+.crousale{
+    animation-name: botom;
+    animation-duration: 10s;   
+}
+
+@keyframes botom {
+
+    0%{transform : translateX(-0%)}
+    16.66%{transform : translateX(-0%)}
+    33.32%{transform : translateX(-35%)}
+    49.88%{transform : translateX(-35%)}
+    66.64%{transform : translateX(-70%)}
+    83.30%{transform : translateX(-70%)}
+    99.96%{transform : translateX(-105%)}
+    116.62%{transform : translateX(-105%)}
+    
+    
+    
+}
